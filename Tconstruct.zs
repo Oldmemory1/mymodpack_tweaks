@@ -1,0 +1,1 @@
+mods.tconstruct.Smeltery.addMelting(<ElementalItems:Ender Crystal>, <liquid:ender> * 2000, 200, <TConstruct:MetalBlock:10>);

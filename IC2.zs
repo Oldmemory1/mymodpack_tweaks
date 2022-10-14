@@ -1,0 +1,16 @@
+mods.gregtech.ChemicalReactor.addRecipe(<customthings:item> * 2,null, <ore:ingotUranium>*1,null, <liquid:oxygen>*1000, 100,128);
+mods.gregtech.ChemicalReactor.addRecipe(<customthings:item> * 2,null, <ore:ingotYellorium>*1,null, <liquid:oxygen>*1000, 100,128);
+mods.gregtech.ChemicalReactor.addRecipe(<customthings:item:5> * 1,null, <customthings:item>*1,null, <liquid:sulfuricacid>*100, 100,256);
+mods.gregtech.ChemicalReactor.addRecipe(<customthings:item:6> * 2,null, <customthings:item:5>*1,null, <liquid:fluorine>*100, 60,512);
+mods.gregtech.ChemicalReactor.addRecipe(<IC2:itemUran> * 1,null, <customthings:item:6>*6,<ore:nuggetUranium235>*3, null, 160,512);
+mods.gregtech.Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2032> * 1, <customthings:item:1> * 1,<gregtech:gt.metaitem.01:2089>*4], null, <IC2:reactorUraniumSimpledepleted>, null,null, [10000,10000,10000], 100, 128);
+mods.gregtech.Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2032> * 2, <customthings:item:1> * 2,<gregtech:gt.metaitem.01:2089>*8], null, <IC2:reactorUraniumDualdepleted>, null,null, [10000,10000,10000], 200, 128);
+mods.gregtech.Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2032> * 4, <customthings:item:1> * 4,<gregtech:gt.metaitem.01:2089>*16], null, <IC2:reactorUraniumQuaddepleted>, null,null, [10000,10000,10000], 400, 128);
+mods.gregtech.ChemicalReactor.addRecipe(<customthings:item:3> * 1,null, <customthings:item:1>*16,<ore:dustFluorite>*4, <liquid:fluorine>*2000, 100,2048);
+mods.gregtech.ChemicalReactor.addRecipe(<customthings:item:4> * 1,null, <customthings:item:1>*64,<ore:dustFluorite>*16, <liquid:chlorine>*2000, 100,2048);
+mods.mekanism.chemical.Injection.addRecipe(<customthings:item:3>, <gas:hydrogenChloride>, <customthings:item:2>*20);
+mods.mekanism.chemical.Injection.addRecipe(<customthings:item:2>, <gas:hydrogenChloride>, <customthings:item:6>*4);
+mods.gregtech.Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2032> * 1, <customthings:item:1> * 1,<gregtech:gt.metaitem.01:2100>*3], null, <IC2:reactorMOXSimpledepleted>, null,null, [10000,10000,10000], 100, 128);
+mods.gregtech.Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2032> * 2, <customthings:item:1> * 2,<gregtech:gt.metaitem.01:2100>*6], null, <IC2:reactorMOXDualdepleted>, null,null, [10000,10000,10000], 200, 128);
+mods.gregtech.Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2032> * 4, <customthings:item:1> * 4,<gregtech:gt.metaitem.01:2100>*12], null, <IC2:reactorMOXQuaddepleted>, null,null, [10000,10000,10000], 400, 128);
+mods.gregtech.ChemicalReactor.addRecipe(<IC2:itemMOX> * 1,null, <customthings:item:6>*6,<ore:dustPlutonium>*3, null, 160,2048);

@@ -1,0 +1,10 @@
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9057>*10,<ore:dustTin>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9035>*10,<ore:dustCopper>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9032>*10,<ore:dustIron>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9019>*10,<ore:dustAluminium>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9019>*10,<ore:dustAluminum>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9089>*10,<ore:dustLead>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:gold_nugget>*10,<ore:dustGold>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9085>*10,<ore:dustPlatinum>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:9054>*10,<ore:dustSilver>, 300,<ImmersiveEngineering:material:13>);
+mods.immersiveengineering.Excavator.getMineral("Coal").addOre("minecraft:coal_block", 0.5);
